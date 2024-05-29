@@ -5,8 +5,8 @@ import os
 from docx2pdf import convert
 import csv
 import streamlit as st
-import pythoncom
 from babel.dates import format_date
+# import pythoncom
 
 # Se hace un contador para poder determinar el N° del documento
 # Primero hacer hace una lectura del contador, el contador será un documento externo ubicado en la carpeta "base"
@@ -121,9 +121,9 @@ def main():
 
             reemplazo(constantes=reemplazos, output=output_path_docx)
 
-            pythoncom.CoInitialize()
+            # pythoncom.CoInitialize() Si se ejecuta en computadora
             convert(input_path=output_path_docx, output_path=output_path_pdf)
-            pythoncom.CoUninitialize()
+            # pythoncom.CoUninitialize() Si se ejecuta en computadora
 
             if os.path.exists(output_path_docx) and os.path.exists(output_path_pdf):
                 st.success(

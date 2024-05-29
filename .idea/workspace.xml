@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa134b09-38ac-49a0-a8ba-6d1c345b2ddb" name="Changes" comment="Agregando requerimientos: docxtpl">
+    <list default="true" id="aa134b09-38ac-49a0-a8ba-6d1c345b2ddb" name="Changes" comment="Agregando requerimientos: pythoncom">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717002601094</updated>
-      <workItem from="1717002613457" duration="2671000" />
+      <workItem from="1717002613457" duration="2805000" />
     </task>
     <task id="LOCAL-00001" summary="Agregando requerimientos">
       <option name="closed" value="true" />
@@ -87,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717013983995</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Agregando requerimientos: pythoncom">
+      <option name="closed" value="true" />
+      <created>1717014104994</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717014104994</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +118,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Agregando requerimientos" />
     <MESSAGE value="Agregando requerimientos: docxtpl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregando requerimientos: docxtpl" />
+    <MESSAGE value="Agregando requerimientos: pythoncom" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregando requerimientos: pythoncom" />
   </component>
 </project>
