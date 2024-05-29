@@ -94,7 +94,10 @@ def main():
     st.subheader("Secretaría de Deportes del Centro Federado de Economía y Planificación🍊⚽")
 
     st.header("Ingrese los detalles para generar el documento:")
-    locale.setlocale(locale.LC_TIME, 'es_ES.UTF-8')
+    try:
+        locale.setlocale(locale.LC_TIME, 'es_ES.UTF-8')
+    except locale.Error:
+        locale.setlocale(locale.LC_TIME, 'C')
     canchas= st.selectbox("Ingrese la(s) cancha(s) separado por comas (Futbol 11, Basket, Voley o números de losas):",['Futbol 11','Basket','Voley','N° de losa'])
     if canchas == "N° de losa":
         canchas = st.text_input('Especifica el número de losa')
