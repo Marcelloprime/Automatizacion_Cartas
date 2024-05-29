@@ -2,4 +2,3 @@ docx2pdf
 streamlit
 babel
 docxtpl
-pythoncom
